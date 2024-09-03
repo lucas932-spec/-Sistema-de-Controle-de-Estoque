@@ -1,0 +1,14 @@
+# Ignore arquivos específicos do ambiente de desenvolvimento de banco de dados
+*.sql~
+*.tmp
+*.bak
+*.log
+
+# Ignore arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de configuração de IDEs comuns
+.vscode/
+.idea/
+*.iml
