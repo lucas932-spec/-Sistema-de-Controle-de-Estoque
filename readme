@@ -1,0 +1,35 @@
+Este projeto implementa um Sistema de Controle de Estoque utilizando SQL para gerenciar fornecedores, produtos e pedidos de reposição. O sistema permite o cadastro de fornecedores, a inserção e atualização de produtos em estoque, a criação de pedidos de reposição e a execução de consultas para monitorar o estoque e os fornecedores. O objetivo é garantir uma gestão eficiente do estoque por meio de operações básicas de banco de dados, como criação de tabelas, inserção, consulta, atualização e exclusão de dados.
+# Sistema de Controle de Estoque
+
+Este projeto é um sistema de controle de estoque desenvolvido em SQL para gerenciar fornecedores, produtos e pedidos de reposição. O sistema utiliza um banco de dados relacional para armazenar e organizar informações essenciais para o controle de estoque de uma empresa.
+
+## Estrutura do Banco de Dados
+
+1. **Banco de Dados:** `SistemaControleEstoque`
+2. **Tabelas:**
+   - `Fornecedores`: Armazena informações dos fornecedores, como nome, contato e endereço.
+   - `Produtos`: Contém dados sobre os produtos disponíveis em estoque, como nome, quantidade, preço e fornecedor associado.
+   - `PedidosReposicao`: Registra pedidos de reposição de produtos, incluindo o produto solicitado, a quantidade e a data do pedido.
+
+## Funcionalidades
+
+- **Inserção de Dados:** Inserir fornecedores, produtos e pedidos de reposição.
+- **Consultas:** 
+  - Consultar todos os produtos em estoque.
+  - Consultar todos os pedidos de reposição.
+  - Consultar informações sobre os fornecedores.
+- **Atualização de Dados:**
+  - Atualizar a quantidade de produtos em estoque após um pedido de reposição.
+- **Deleção de Dados:**
+  - Excluir produtos descontinuados e remover fornecedores que não fazem mais parte da empresa.
+
+## Como Utilizar
+
+1. Execute o script SQL em um ambiente de banco de dados compatível (ex: MySQL).
+2. Utilize os comandos SQL para realizar as operações de inserção, consulta, atualização e exclusão de dados conforme necessário.
+
+## Requisitos
+
+- MySQL ou qualquer outro sistema de gerenciamento de banco de dados relacional compatível com SQL.
+
+
